@@ -268,28 +268,3 @@ if __name__ == '__main__':
 
 #127.0.0.1 for local machine 
 #0.0.0.0 for AWS machine 
-
-
-# def main():
-
-#     spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
-
-#     # make top
-#     names, uris = getArtists(spotify, 'drake')
-#     # print (names, uris)
-    
-#     tracks,trackUris = getTopTracks(spotify, uris[0])
-#     # print (tracks,trackUris)
-
-#     token = makeToken()
-#     makePlaylist(token, 'qwt188igyu3m0jqmygtkv6bc4', 'Test')
-#     playlistID = getPlaylistID(token, 'qwt188igyu3m0jqmygtkv6bc4', 'Test')
-#     token.user_playlist_add_tracks('qwt188igyu3m0jqmygtkv6bc4', playlistID, trackUris)
-
-
-# if __name__ == "__main__":
-#     main()
-
-
-
-
