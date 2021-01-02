@@ -12,6 +12,7 @@ Install the necessary Python packages by running:
 
 ## Run
 Creat the environment variables:
+
  Windows:
  
  `$env:SPOTIPY_CLIENT_ID='id'`
